@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  /* font-family: "Judson", serif; */
+}
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: #000;
+  --button-color: #06c129;
+  --error-color: #ff0000;
+}
+.main-container {
+  width: 100%;
+  max-width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+@media only screen and (max-width: 1180px) {
+  .main-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .main-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
