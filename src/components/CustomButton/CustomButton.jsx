@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import "./CustomButton.css";
 
-function CustomButton() {
+function CustomButton(props) {
+  const { children } = props;
   return (
-    <div>CustomButton</div>
-  )
+    <div>
+      <button>{children}</button>
+    </div>
+  );
 }
 
-export default CustomButton
+export default CustomButton;
